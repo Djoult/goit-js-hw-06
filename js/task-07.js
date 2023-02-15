@@ -6,6 +6,6 @@ console.log(`${inputFontSizeControl.value} px`);
 
 // console.log(text.style.fontSize.value);
 function fontSizeUpdate() {
-  text.style.fontSize = `${inputFontSizeControl.value}` + "px";
+  text.style.fontSize = `${inputFontSizeControl.value}px`;
   console.log(`${inputFontSizeControl.value} px`);
 }
