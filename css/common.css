@@ -29,8 +29,10 @@ img {
 }
 .t3-gallery {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-basis: calc((100% - 10px * (2 - 1)) / 2);
+  flex-wrap: wrap;
+  /* align-items: center;
+  justify-content: center; */
   gap: 10px;
 }
 .t3-item {

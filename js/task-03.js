@@ -13,7 +13,7 @@ const images = [
   },
 ];
 const galleryEl = document.querySelector(".gallery");
-galleryEl.classList.add("t3-gallery");
+galleryEl.classList.add("t3-gallery"); //для стилізації
 const galleryItems = images
   .map(
     ({ url, alt }) =>

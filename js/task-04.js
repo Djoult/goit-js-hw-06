@@ -3,14 +3,14 @@ let result = document.querySelector("#value");
 result.textContent = counterValue;
 const incrementBtn = document.querySelector('button[data-action="increment"]');
 const decrementBtn = document.querySelector('button[data-action="decrement"]');
-incrementBtn.addEventListener("click", HandleIncreaseValue);
-decrementBtn.addEventListener("click", HandleDecreaseValue);
+incrementBtn.addEventListener("click", handleIncreaseValue);
+decrementBtn.addEventListener("click", handleDecreaseValue);
 
-function HandleIncreaseValue() {
+function handleIncreaseValue() {
   counterValue += 1;
   result.textContent = counterValue;
 }
-function HandleDecreaseValue() {
+function handleDecreaseValue() {
   //   if (counterValue <= 0) {
   //     alert("Counter can't be negative");
   //     return;

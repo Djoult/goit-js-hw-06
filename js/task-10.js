@@ -14,10 +14,11 @@ controls.btnCreate.addEventListener("click", createBoxes);
 controls.btnDestroy.addEventListener("click", destroyBoxes);
 
 function createBoxes() {
-  destroyBoxes();
+  // destroyBoxes();
   let amount = controls.inputValue.value;
+  const START_VALUE = 30;
   for (let i = 0; i < amount; i++) {
-    const x = i * 10 + 30;
+    const x = i * 10 + START_VALUE;
     console.log(x);
     let randColor = getRandomHexColor();
     boxes.insertAdjacentHTML(
