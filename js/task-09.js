@@ -7,5 +7,5 @@ changeColorBtn.addEventListener("click", changeBodyColor);
 function changeBodyColor() {
   const tempColor = getRandomHexColor();
   document.body.style.background = tempColor;
-  color.textContent = document.body.style.background;
+  color.textContent = tempColor;
 }
